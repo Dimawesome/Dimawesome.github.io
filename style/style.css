@@ -1,0 +1,1257 @@
+/* * {
+	background: #000 !important;
+	color: #0f0 !important;
+	outline: solid #f00 1px !important;
+} */
+
+body {
+	/* min-height: 548vh; */
+	font-family: Segoe UI;	
+	overflow-x: hidden;
+}
+#page-end {
+	position: relative;
+	width: 100%;
+	height: 35.807vw;	
+	/* height: 550px;	 */
+}
+#logo {
+	width: 300px;
+	margin-right: 20px;
+	margin-left: 30px;
+}
+
+/*home page background */ 
+#bg3, .bg, .bg2, .bg-a, .bg2-a, .bg-g, .bg2-g, .bg-m, .bg2-m, .bg-n, .bg2-n, .bg-j, .bg2-j {
+	width: 100%;
+	height: 100%;
+	z-index: -99;
+	position: fixed;
+	background-attachment: fixed;
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.bg2 {
+	background-image: url("../images/bg2-p.jpg");
+}
+.bg {
+	background-image: url("../images/bg1-p.jpg");
+}
+#bg2 {
+	visibility: hidden;
+}
+#bg3 {
+	background-color: teal;
+	visibility: hidden;
+}
+#sticky {
+	position: sticky;
+	top: 85%;
+	left: 92.5%;
+	z-index: 99;
+	width: 6%;
+	visibility: hidden;
+	opacity: 0.6;
+}
+#sticky:hover {
+	transform: rotate(360deg);
+	transition: 0.7s;
+	opacity: 1;
+	cursor: pointer;
+}
+
+/* STICKY THIRD LVL WEB BUTTONS */
+#third-lvl-nav {
+	width: 6.5%;
+	height: 5%;
+	position: sticky;
+	left: 92.5%;
+	top: 20%;
+	z-index: 99;
+	/* font-weight: bold; */
+	/* font-family: verdana; */
+	/* display: inline-block; */
+}
+#my-nav {
+	position: relative;
+	font-size: 2.604vw;
+	border-radius: 50%;
+	opacity: 0.7;
+	text-align: center;
+	color: #00bcbc;
+	height: 4.753vw;
+	width: 4.753vw;
+	background-color: #f2f4f7;
+	border: 0.260vw solid teal;
+	margin-bottom: 8%;
+	transition: 0.5s;
+}
+a:hover{
+	text-decoration: none;
+}
+#my-nav:hover {
+	transition: 0.3s;
+	opacity: 2;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+
+.navbar-default{
+	transition: 500ms ease;
+	background: transparent;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.navbar-default.scrolled{
+	background: teal;  
+	/* colors: gold teal tan */
+	opacity: 0.98;
+}
+ .nav-item {
+	font-family: Segoe UI;
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-right: 50px;
+	letter-spacing: 1px;
+}
+
+.navbar-nav {
+	margin-left: 20px;
+}
+#back-line {
+	width: 100%;
+	position: absolute;
+	background-color: teal;
+	z-index: -1;
+	opacity: 0.6;
+}
+.back-line-pagr {
+	/* height: 210px; */
+	height: 13.672vw;
+	margin: 7.5% 0 0;
+}
+h1 {
+	color: #f2f4f7;
+	text-align: center;
+	margin: 8.5% 0 0;
+	font-style: italic;
+	font-size: 5.859vw;
+	font-weight: bold;
+	font-family: nunito;
+	/* font-family: Futura-Heavy; */
+	/* font-family: Brush Script MT; */
+	letter-spacing: 13px;
+	text-transform: uppercase
+}
+h2 {
+	font-size: 3.906vw;
+	/* font-size: 60px; */
+	color: teal;
+	text-align: center;
+	margin: 8.5% 0 0;
+	font-weight: bold;
+	font-family: nunito;
+	letter-spacing: 13px;
+	text-transform: uppercase
+}
+h3 {
+	font-size: 1.85vw; /* px - default */
+	color: #f2f4f7;
+	font-style: italic;
+	letter-spacing: 2.5px;
+	font-family: nunito;
+}
+h5 {
+	color: #f2f4f7;
+	text-align: center;
+	/* margin: 8.5% 0 0; */
+	/* font-style: italic; */
+	font-size: 1.628vw;
+	/* font-size: 25px; */
+	/* font-weight: bold; */	
+	/* font-family: Brush Script MT; */
+	/* font-family: nunito; */
+	/* font-family: Futura-Heavy; */
+	/* font-family: Brush Script MT; */
+	letter-spacing: 2px;
+	/* text-transform: uppercase */
+}
+p {
+	font-size: 1.302vw;
+	/* font-size: 20px; */
+	letter-spacing: 1px;
+}
+/* TITLE ANIMATION */
+#title {
+	position: relative;
+}
+@keyframes mymove2 {
+  from {right: -500px;}
+  to {right: 0px;}
+}
+
+/* TITLE CITATOS ANIMATION */
+#title-cit {
+	position: relative;
+	text-align: center;
+	margin-top: 1.7%;
+	margin-left: 17%;
+}
+@keyframes mymove {
+  from {left: -300px;}
+  to {left: 0px;}
+}
+
+/* FIRST PAR */
+#first-par {
+	margin-top: 25%;
+	background-color: #f2f4f7;
+	border: 1px solid #f2f4f7;
+	width: 100%;
+}
+.first-par-pagr {
+	height: 61.849vw;
+	/* height: 950px; */
+}
+#first-par h1 {
+	font-style: normal;
+	/* font-size: 60px; */
+	font-size: 3.906vw;
+	color: teal;
+}
+#i-facts {
+	text-align: center;
+	margin: 9% 0 0;
+}
+.i-facts-pagr {
+	padding-left: 12%;
+}
+ h4 {
+	color: grey;
+	font-size: 2.279vw;
+	/* font-size: 30px; */
+	letter-spacing: 5px;
+}
+#i-articles {
+	float: left;
+	display: block;
+	/* text-align: left; */
+	height: 32.552vw;
+	/* height: 500px; */
+	align-items: center;
+}
+.i-articles-pagr {
+	padding: 0 4.4%;
+	width: 29%;
+	/* width: 386px; */
+}
+#i-facts p {
+	text-align: left;
+	margin: 15% 0 0;
+}
+hr {
+	margin-top: 11%;
+	margin-bottom: 6%;
+	width: 35%;
+	background-color: grey;
+	border: 1px solid grey;
+}
+#more-button  {
+	font-size: 1.107vw;
+	/* font-size: 17px; */
+	color: teal;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#more-button:hover {
+	color: grey;
+	text-decoration: none;
+	transition: 0.3s;
+}
+.i-window {
+	background-color: #f2f4f7;
+	border: none;
+}
+.i-window:focus {
+	outline: none;
+}
+
+.slideUp1, .slideUp2 {
+  animation-name: slideUp;
+  animation-duration: 2s;
+  visibility: visible;
+}
+.slideUp2 {
+  animation-duration: 1.5s;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slideUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+/* SECOND PAR */
+#second-par {
+	/* position: relative; */
+	width: 100%;
+	/* height: 620px; */
+    background: rgba(128, 128, 128, 0.5);
+	/* font-size: 35px; */
+	color: #f2f4f7;
+}
+.second-par-pagr {
+	height: 40.365vw;
+	font-family: nunito;
+	font-style: italic;
+	letter-spacing: 2px;
+}
+#poem-pagr {
+	width: 100%;
+	/* position: relative; */
+	padding-top: 6%;
+	margin-left: 10%;
+/* 	animation-name: slideUp;
+	animation-duration: 2.5s; */
+}
+.second-par-pagr p {
+	margin: 0 0;
+	font-size: 2.2vw;
+}
+#poem-author {
+	position: relative;
+	width: 100%;
+	font-size: 2.604vw;
+	/* font-size: 40px; */
+	padding-top: 5%;
+	padding-left: 50%;
+	font-family: Brush Script MT;
+}
+/* POEM ANIMATION */
+#poem-f-par, #poem-s-par {
+	width: 100%;
+	position: relative;
+}
+
+/* GALERY */
+#third-par {
+	width: 100%;
+	/* height: 1050px; */
+	background-color: #f2f4f7;
+}
+.third-par-pagr {
+	height: 75vw;
+}
+#galery-img {
+	width: 90%;
+	margin-top: 8%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.third-par-pagr img {
+	width: 33.3%;
+	height: 100%;
+	float:left;
+	filter: grayscale(60%);
+	transition: 0.1s;
+}
+.third-par-pagr img:hover {
+	filter: grayscale(0%);
+}
+
+#third-par-title {
+	margin: 0 0;
+	padding-top: 8.5%;
+}
+
+/* FOOTER */
+#footer {
+	position: fixed;
+	width: 100%;
+	bottom: 3%;
+	color: #f2f4f7;
+	/* padding-top: 18em; */
+	text-align: center;
+}
+#footer-contacts {
+	/* position: fixed; */
+	width: 100%;
+	height: 100%;
+	margin: 0 14% 3%;
+	padding: 3.5% 0 11% 0;
+}
+#contacts {
+	width: 20%;
+	height: 11.5vw;
+	/* height: 160px; */
+	margin: 0 2%;
+	border: 1px solid #f2f4f7;
+	background-color: #f2f4f7;
+	float: left;
+}
+h6 {
+	margin: 12% 0 0;
+	font-size: 1.107vw;
+	/* font-size: 17px; */
+	color: teal;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#contacts hr {
+	margin-top: 7%;
+}
+#contacts p {
+	color: grey;
+	font-size: 1.1vw;
+}
+/* #social-net {
+	position: fixed;
+	width: 100%;
+}
+#social-net img {
+	width: 3%;
+} */
+#footer-info {
+	width: 100%;
+	margin-top: 8%;
+	/* margin-top: 21%; */
+	/* position: fixed; */
+}
+#author {
+	margin: 1.5% 2% 0;
+	font-size: 0.911vw;
+	/* font-size: 14px; */
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#footer-text {
+	font-size: 0.781vw;
+	/* font-size: 12px; */
+	margin: 0.8% 2% 0;
+}
+
+
+/* APIE -------------------------------- PAGE  */
+
+/* BACKGROUND */
+.bg-a {
+	background-image: url("../images/bg1-a.jpg");
+}
+.bg2-a {
+	background-image: url("../images/bg2-a.jpg");
+}
+
+/* TITLE */
+.title-apie {
+	text-align: left;
+	margin-left: 3%;
+}
+.title-cit-apie {
+	width: 70%;
+	text-align: left;
+	margin-top: 0.5%;
+	margin-left: 3%;
+}
+.back-line-apie {
+	/* height: 210px; */
+	height: 14.5vw;
+	margin: 7.5% 0 0;
+}
+
+/* FIRST PAR */
+.first-par-apie {
+	height: 80vw;
+}
+#first-txt-apie {
+	position: absolute;
+	width: 40%;
+	height: 26.042vw;
+	/* background-color: #f2f4f7; */
+	background: rgba(242, 244, 247, 0.94);
+	padding: 4.5%;
+	margin: 9% 7% 0;
+}
+.first-par-apie img {
+	position: absolute;
+	width: 60%;
+	margin-left: 35%;
+	margin-top: 10%;
+}
+
+/* SECOND PAR */
+#second-par-title {
+	margin: 0;
+	padding-top: 8.5%;
+	color: #f2f4f7;
+}
+.second-par-apie {
+	height: 46vw;
+}
+.second-par-apie p {
+	width: 100%;
+	margin-bottom: 5%;
+}
+#second-txt-apie {
+	width: 65%;
+	margin: 8% 0 3% 10%;
+}
+
+/* THIRD PAR */
+.third-par-apie {
+	height: 60vw;
+}
+.i-facts-apie {
+	padding-left: 24%;
+}
+.i-facts-apie img{
+	width: 100%;
+	margin-bottom: 10%;
+}
+.i-articles-apie {
+	padding: 0 2%;
+	width: 30%;
+	margin-right: 8%;
+}
+
+/* FOURTH PAR */
+#fourth-par {
+	width: 100%;
+	/* background-image: url("../images/img21.jpg"); */
+	/* background: rgba(128, 128, 128, 0.9); */
+	background-color: #f2f4f7;
+}
+.fourth-par-apie {
+	height: 85vw;
+}
+#fourth-txt-apie {
+	position: absolute;
+	width: 40%;
+	height: 30.5vw;
+	/* background-color: #f2f4f7; */
+	background: rgba(242, 244, 247, 0.94);
+	padding: 3%;
+	padding-bottom: 0;
+	margin: 28% 6% 0;
+}
+#fourth-txt-apie hr {
+	margin: 8% 0 5% 0;
+}
+.fourth-par-apie img {
+	position: absolute;
+	width: 70%;
+	margin-left: 17%;
+	margin-top: 9%;
+}
+
+
+/* GAMTA ----------------------------------------PAGE */
+
+/* BACKGROUND */
+.bg-g {
+	background-image: url("../images/bg1-g.jpg");
+	/* filter: blur(1px); */
+	/* opacity: 0.9; */
+}
+.bg2-g {
+	background-image: url("../images/bg2-g.jpg");
+}
+
+/* FIRST PAR */
+.first-par-gamta {
+	height: 72vw;
+}
+#first-txt-gamta {
+	position: absolute;
+	width: 40%;
+	height: 33vw;
+	/* background-color: #f2f4f7; */
+	background: rgba(242, 244, 247, 0.94);
+	padding: 4%;
+	margin: 8% 55% 0;
+}
+.first-par-gamta img {
+	position: absolute;
+	width: 60%;
+	margin-left: 8%;
+	margin-top: 10%;
+}
+
+/* SECOND PAR */
+.second-par-gamta {
+	height: 50vw;
+}
+.second-par-gamta p {
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+/* THIRD PAR */
+.third-par-gamta {
+	height: 111vw;
+}
+.third-par-gamta div{
+	position: absolute;
+	background: rgba(242, 244, 247, 0.94);
+}
+
+#third-txt-one-gamta {
+	width: 40%;
+	height: 22vw;
+	padding: 4%;
+	margin: 7% 9% 0;
+}
+.third-par-g-img1 {
+	position: absolute;
+	width: 75%;
+	margin-left: 10%;
+	margin-top: 11.5%;
+}
+#third-txt-two-gamta {
+	width: 40%;
+	height: 30vw;
+	padding: 3%;
+	margin: 45% 48% 0;
+}
+.third-par-g-img2 {
+	position: absolute;
+	width: 30%;
+	margin-left: 11%;
+	margin-top: 55%;
+}
+#third-txt-three-gamta {
+	width: 20%;
+	height: 23vw;
+	padding: 2.5%;
+	margin: 70% 9% 0;
+}
+.third-par-g-img3 {
+	position: absolute;
+	width: 40%;
+	margin-left: 49%;
+	margin-top: 75.5%;
+}
+
+/* FOURTH PAR */
+#fourth-txt-gamta {
+	position: absolute;
+	width: 40%;
+	height: 17.5vw;
+	/* background-color: #f2f4f7; */
+	background: rgba(242, 244, 247, 0.97);
+	padding: 2%;
+	margin: 8% 41% 0;
+}
+.fourth-par-gamta {
+	background-color: #f2f4f7;
+	height: 90vw;
+}
+.fourth-par-gamta img {
+	position: absolute;
+	width: 70%;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+
+/* MITOLOGIJA ----------------------------- PAGE */
+
+.bg-m {
+	background-image: url("../images/bg1-m.jpg");
+	/* filter: blur(1px); */
+	/* opacity: 0.9; */
+}
+.bg2-m {
+	background-image: url("../images/bg2-m.jpg");
+}
+
+/* FIRST PAR */
+.first-par-mit {
+	height: 130vw;
+}
+.first-par-mit div {
+	position: absolute;
+	background: rgba(242, 244, 247, 0.94);
+}
+#first-txt-one-mit {
+	width: 40%;
+	height: 30vw;
+	padding: 4%;
+	margin: 10% 6% 0;
+}
+.first-par-img1 {
+	position: absolute;
+	width: 60%;
+	margin-left: 29%;
+	margin-top: 11%;
+}
+#first-txt-two-mit {
+	width: 40%;
+	height: 18vw;
+	padding: 3%;
+	margin: 50% 52% 0;
+}
+.first-par-img2 {
+	position: absolute;
+	width: 50%;
+	margin-left: 11%;
+	margin-top: 60%;
+}
+.first-par-img3 {
+	position: absolute;
+	width: 15%;
+	margin-left: 70%;
+	margin-top: 75%;
+}
+#first-txt-three-mit {
+	width: 40%;
+	height: 25vw;
+	padding: 6% 3%;
+	margin: 78% 52% 0;
+}
+
+
+
+/* SECOND PAR */
+.second-par-mit {
+	height: 44vw;
+	font-family: nunito;
+	font-style: italic;
+	letter-spacing: 2px;
+}
+.second-par-mit p {
+	font-size: 2.279vw;
+}
+#poem-mit {
+	width: 100%;
+	padding-top: 8%;
+	margin-left: 10%;
+}
+
+/* THIRD PAR */
+.third-par-mit {
+	height: 175vw;
+	background-color: #f2f4f7;
+}
+.third-par-mit div {
+	position: absolute;
+	/* background-color: #f2f4f7; */
+	background: rgba(242, 244, 247, 0.94);
+}
+#third-txt-one-mit {
+	width: 40%;
+	height: 17vw;
+	padding: 3.5% 4%;
+	margin: 8% 50% 0;
+}
+.third-par-m-img1 {
+	position: absolute;
+	width: 65%;
+	margin-left: 10%;
+	margin-top: 11.5%;
+}
+#third-txt-two-mit {
+	width: 40%;
+	height: 10vw;
+	padding: 3%;
+	margin: 55% 8% 0;
+}
+.third-par-m-img2 {
+	position: absolute;
+	width: 55%;
+	margin-left: 12%;
+	margin-top: 70%;
+}
+#third-txt-three-mit {
+	width: 30%;
+	height: 25vw;
+	padding: 2%;
+	margin: 70% 60% 0;
+}
+.third-par-m-img3 {
+	position: absolute;
+	width: 50%;
+	margin-left: 20%;
+	margin-top: 120%;
+}
+#third-txt-four-mit {
+	width: 40%;
+	height: 15vw;
+	padding: 3%;
+	margin: 100% 8% 0;
+}
+#third-txt-five-mit {
+	width: 40%;
+	height: 18vw;
+	padding: 3%;
+	margin: 110% 49% 0;
+}
+
+/* NIDA ------------------------------------ PAGE */
+.bg-n {
+	background-image: url("../images/bg1-n.jpg");
+	/* filter: blur(1px); */
+	/* opacity: 0.9; */
+}
+.bg2-n {
+	background-image: url("../images/bg2-n.jpg");
+}
+.back-line-nida {
+	height: 16.5vw;
+	margin: 7.5% 0 0;
+}
+
+/* FIRST PAR */
+.first-par-nida p {
+	font-size: 1.19vw;
+}
+.first-par-nida {
+	height: 130vw;
+}
+.first-par-nida h4 {
+	font-size: 1.5vw;
+	letter-spacing: 2px;
+}
+.first-par-nida div {
+	position: absolute;
+	/* background-color: #f2f4f7; */
+	background: rgba(242, 244, 247, 0.94);
+}
+#first-txt-one-nida {
+	width: 50%;
+	height: 33vw;
+	padding: 4%;
+	margin: 8% 45% 0;
+}
+.first-par-n-img1 {
+	position: absolute;
+	width: 40%;
+	margin-left: 8%;
+	margin-top: 12%;
+}
+#first-txt-two-nida {
+	width: 40%;
+	height: 30vw;
+	padding: 2%;
+	margin: 40% 8% 0;
+}
+.first-par-n-img2 {
+	position: absolute;
+	width: 40%;
+	margin-left: 50%;
+	margin-top: 45%;
+}
+#first-txt-three-nida {
+	width: 40%;
+	height: 25vw;
+	padding: 1%;
+	margin: 75% 50% 0;
+}
+.first-par-n-img3 {
+	position: absolute;
+	width: 45%;
+	margin-left: 8%;
+	margin-top: 70%;
+}
+
+/* THIRD PAR */
+.third-par-nida {
+	height: 75vw;
+}
+.third-par-nida img {
+	width: 33.3%;
+	height: 100%;
+	float:left;
+	filter: grayscale(60%);
+	transition: 0.1s;
+}
+.third-par-nida img:hover {
+	filter: grayscale(0%);
+}
+
+
+
+/* JUODKRANTE PAGE */
+.bg-j {
+	background-image: url("../images/bg1-j.jpg");
+	/* filter: blur(1px); */
+	/* opacity: 0.9; */
+}
+.bg2-j {
+	background-image: url("../images/bg2-j.jpg");
+}
+/* FIRST PAR */
+.first-par-juod p {
+	font-size: 1.19vw;
+}
+.first-par-juod {
+	height: 135vw;
+}
+.first-par-juod h4 {
+	font-size: 1.5vw;
+	letter-spacing: 2px;
+}
+.first-par-juod div {
+	position: absolute;
+	/* background-color: #f2f4f7; */
+	background: rgba(242, 244, 247, 0.94);
+}
+#first-txt-one-juod {
+	width: 50%;
+	height: 45vw;
+	padding: 4%;
+	margin: 6% 45% 0;
+}
+.first-par-j-img1 {
+	position: absolute;
+	width: 40%;
+	margin-left: 8%;
+	margin-top: 17%;
+}
+#first-txt-two-juod {
+	width: 40%;
+	height: 25vw;
+	padding: 2%;
+	margin: 44% 8% 0;
+}
+.first-par-j-img2 {
+	position: absolute;
+	width: 35%;
+	margin-left: 49%;
+	margin-top: 50%;
+}
+#first-txt-three-juod{
+	width: 40%;
+	height: 28vw;
+	padding: 1%;
+	margin: 83% 50% 0;
+}
+.first-par-j-img3 {
+	position: absolute;
+	width: 40%;
+	margin-left: 6%;
+	margin-top: 82%;
+}
+
+
+/* INTERACTIVE WINDOW */
+.modal-header {
+	margin: 0 auto;
+}
+.container h4 {
+	letter-spacing: 2px;
+	margin: 8% 0 6%;
+	text-align: center;
+	font-size: 1.7vw;
+}
+.container img {
+	margin-bottom: 6%;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 990px) {
+	.title-cit {
+		margin-left: 0;
+	}
+	/* FIRST PAR */
+	#i-facts {
+		text-align: center;
+		padding-left: 0;
+	}
+	#i-articles {
+		text-align: center;
+		float: none;
+		padding: 0 0;
+		width: 40%;
+		height: 30%;
+		margin: 0 30% 8%;
+	}
+	.first-par-pagr {
+		height: 155vw;
+	}
+	h2 {
+		font-size: 4.545vw;
+		/* font-size: 45px; */
+	}
+	h4 {
+		font-size: 3.7vw;
+		/* font-size: 30px; */
+	}
+	#i-facts p {
+		margin-top: 8%;
+		font-size: 2vw;
+		/* font-size: 18px; */
+	}
+	#more-button {
+		font-size: 2vw;
+		/* font-size: 15px; */
+	}
+	hr {
+		margin-top: 8%;
+		margin-bottom: 5%;
+	}
+
+	/* GALERY */
+	.third-par-pagr, .third-par-apie, .third-par {
+		height: 115vw;
+	}
+	
+	.third-par-nida {
+		height: 130vw;
+	}
+	
+	#third-par img {
+		width: 50%;
+	}
+	
+	/* ANIMATION */
+	.title, .title-cit,.slideUp1, .slideUp2, .poem-f-anim, .poem-s-anim, .poem-t-anim {
+		animation-name: none;
+	}
+/* 	
+	#footer {
+		margin-top: 9.5em;
+	}
+	 */
+	/* APIE */
+	#first-txt-apie {
+		height: 29vw;
+	}
+	
+	/* GAMTA */
+	.third-par-gamta {
+		height: 120vw;
+	}
+	.third-par-g-img1 {
+		margin-left: 40%;
+	}
+	#third-txt-two-gamta {
+		margin: 39% 50% 0;
+	}
+	.third-par-g-img2 {
+		margin-left: 10%;
+		margin-top: 45%;
+	}
+	#third-txt-three-gamta {
+		height: 23vw;
+		margin: 67% 9% 0;
+	}
+	.third-par-g-img3 {
+		width: 10%;
+		margin-left: 35%;
+		margin-top: 80%;
+	}
+	
+	/* MITOLOGIJA */
+	#third-txt-two-mit {
+		height: 14vw;
+		margin: 45% 8% 0;
+	}
+	.third-par-m-img2 {
+		margin-left: 15%;
+		margin-top: 57%;
+	}
+	#third-txt-three-mit {
+		height: 27vw;
+		margin: 60% 60% 0;
+	}
+	.third-par-m-img3 {
+		margin-top: 100%;
+	}
+	#third-txt-four-mit {
+		margin: 85% 8% 0;
+	}
+	#third-txt-five-mit {
+		margin: 120% 49% 0;
+	}
+	
+	/* NIDA */
+	#first-txt-one-nida {
+		height: 35vw;
+	}
+}
+
+/* /////////////////////////////-/////////////////////////////////////////////////////////////// */
+
+/* FOR SMALL DEVICES */
+@media screen and (max-width: 830px) {
+	#sticky {
+		width: 8%;
+	}
+	#my-nav {
+		font-size: 3.6vw;
+		text-align: center;
+		height: 6.2vw;
+		width: 6.2vw;
+		margin-bottom: 40%;
+	}
+	
+	/* FOOTER */
+	#contacts {
+		height: 13.5vw;
+	}
+	h6 {
+		font-size: 1.4vw;
+		letter-spacing: 1px;
+	}
+	#contacts p {
+		font-size: 1.4vw;
+	}
+	#author {
+		font-size: 1.4vw;
+	}
+	#footer-text {
+		font-size: 1.1vw;
+	}
+	
+	.back-line-apie {
+		height: 25vw;
+	}
+	#poem-author {
+		font-size: 3.5vw;
+	}
+	p, .second-par-pagr p, .first-par-nida P, .first-par-juod p {
+		font-size: 2.2vw;
+	}
+	h2 {
+		letter-spacing: 4px;
+	}
+	#title-cit {
+		margin: 0;
+	}
+	
+	#first-txt-apie, #fourth-txt-apie, #first-txt-gamta, #fourth-txt-gamta  {
+		position: relative;
+		width: 90%;
+		height: auto;
+		background: none;
+		padding: 0;
+		margin: 0 5% 0 5%;
+	}
+	
+	.first-par-apie img, .fourth-par-apie img, .first-par-gamta img, .fourth-par-gamta img, .first-par-img1, .first-par-img2, .first-par-img3, .first-par-n-img1, .first-par-n-img2, .first-par-n-img3, .first-par-j-img1, .first-par-j-img2, .first-par-j-img3  {
+		position: relative;
+		width: 60%;
+		margin: 5% 20% 5% 20%;
+	}
+	
+	.third-par-gamta div, .first-par-mit div, .third-par-mit div, .first-par-nida div, .first-par-juod div {
+		position: relative;
+		background: none;
+	}
+
+	#third-txt-one-gamta, #third-txt-two-gamta, #third-txt-three-gamta, #first-txt-one-mit, #first-txt-two-mit, #first-txt-three-mit, 	#third-txt-one-mit, #third-txt-two-mit, #third-txt-three-mit, #third-txt-four-mit, #third-txt-five-mit, #first-txt-one-nida, #first-txt-two-nida, #first-txt-three-nida, #first-txt-one-juod, #first-txt-two-juod, #first-txt-three-juod {
+		width: 90%;
+		height: auto;
+		padding: 0;
+		margin: 0 5% 0 5%;
+	}
+	
+	.third-par-g-img1, .third-par-g-img2, .third-par-g-img3, .third-par-m-img1, .third-par-m-img2, .third-par-m-img3 {
+		position: relative;
+		width: 60%;
+		margin: 5% 20% 5% 25%;
+	}
+	
+	
+	/* APIE ----------------------------------------PAGE */
+	
+	/* FIRST PAR */
+	.first-par-apie {
+		height: 90vw;
+	}
+	
+	/* SECOND PAR */
+	#second-par-title {
+		margin: 0;
+		padding-top: 5%;
+		color: #f2f4f7;
+	}
+	.second-par-apie {
+		height: 50vw;
+	}
+	#second-txt-apie {
+		width: 90%;
+		margin: 5% 5% 3% 5%;
+	}
+
+	/* THIRD PAR */
+	.third-par-apie {
+		height: 100vw;
+	}
+
+	/* FOURTH PAR */
+	.fourth-par-apie, .first-par-gamta, .fourth-par-gamta {
+		height: 95vw;
+	}
+	#fourth-txt-apie hr {
+		margin: 5% 0 2% 0;
+	}
+
+	/* GAMTA ----------------------------------------PAGE */
+
+	/* SECOND PAR */
+	.second-par-gamta, .second-par-mit {
+		height: 54vw;
+	}
+
+	/* THIRD PAR */
+	.third-par-gamta {
+		height: 180vw;
+	}
+
+	/* MITOLOGIJA ----------------------------- PAGE */
+
+	/* FIRST PAR */
+	.first-par-mit {
+		height: 185vw;
+	}
+
+	/* THIRD PAR */
+	.third-par-mit {
+		height: 230vw;
+	}
+
+	/* NIDA AND JUODKRANTE ------------------ PAGE */
+	
+	/* FIRST PAR */
+	.first-par-nida {
+		height: 265vw;
+	}
+	.first-par-juod {
+		height: 290vw;
+	}
+	.first-par-nida h4, .first-par-juod h4 {
+		text-align: center;
+		font-size: 3.2vw;
+	}
+	
+	/* THIRD PAR */
+	.third-par-nida {
+		height: 125vw;
+	}
+}
